@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1763297408 source:c:\users\fabri\escritorio\selectionsort\main.c
+	"selectionSort.h"
+
+1761342661 c:\users\fabri\escritorio\selectionsort\selectionsort.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+
+1763297592 source:c:\users\fabri\escritorio\selectionsort\selectionsort.c
+	"selectionSort.h"
+
