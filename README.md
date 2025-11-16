@@ -47,30 +47,28 @@ Repositorio: [https://github.com/TU_USUARIO/fileSelectionSort](https://github.co
 ---
 
 ## 💻 Compilación y ejecución
+---
 
 <details>
-<summary>Windows (MinGW / Code::Blocks)</summary>
+<summary>🖥️ Windows (MinGW / Code::Blocks)</summary>
 
 ### Compilación en Code::Blocks
-1. Abrir **Code::Blocks** y cargar `selectionSort.cbp`.  
-2. Configurar el compilador si es necesario.  
-3. Build & Run (`F9`) para compilar y ejecutar el programa.
+1. Abrir **Code::Blocks** y cargar el archivo de proyecto `selectionSort.cbp`.
+2. Asegúrate de que la configuración del compilador sea correcta (generalmente MinGW).
+3. Usar **Build & Run** (o presionar `F9`) para compilar y ejecutar el programa.
 
 ### Compilación desde terminal
-```bash
 gcc main.c selectionSort.c -o fileSelectionSort
 Ejecutar
-bash
-Copiar código
 ./fileSelectionSort.exe
-</details> <details> <summary>Linux</summary>
-Compilación desde terminal
-bash
-Copiar código
+</details>
+
+<details> <summary>🐧 Linux</summary>
+
+### Compilación desde terminal
 gcc main.c selectionSort.c -o fileSelectionSort
+
 Ejecutar
-bash
-Copiar código
 ./fileSelectionSort
 </details>
 📂 Archivos importantes
